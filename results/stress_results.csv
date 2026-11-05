@@ -1,0 +1,3 @@
+,backlight,blur,dark,new_bg,overall
+A1 Baseline CNN,39.1,28.0,27.3,46.2,35.4
+DINOv2 + LogReg,39.1,36.0,40.9,53.8,42.7

@@ -1,0 +1,14 @@
+# Demo app and notebook dependencies (tested in Google Colab with a T4 GPU)
+torch
+transformers
+scikit-learn
+joblib
+numpy
+pillow
+pillow-heif
+matplotlib
+gradio>=4.0
+# Only needed to evaluate the A1 baseline CNN (best_hand_gesture_cnn.keras) in the notebook:
+# tensorflow
+# Tip: if joblib warns about a scikit-learn version mismatch, pin the same scikit-learn
+# version that was used in Colab, or re-create the classifier files by running the notebook.
